@@ -1,0 +1,290 @@
+<!--
+    Hi, this is gootal mobile html
+    
+    This code is the author's copyrighted work.
+    All copying and unauthorized use are prohibited
+    If you have any questions please send us a direct message on Twitter
+    This page is a parody and fiction of MVNO.
+    Twitter @motimoti_dev
+-->
+<html>
+    <head>
+        <meta name="viewport" content="width=width=480,initial-scale=1">
+        <title>ぐーたるmobile</title>
+		<meta name="robots" content="index, follow"/>
+		<meta name="description" content="ぐーたるmobile公式サイトです！お問い合わせは🍒ぐーたる🍒まで！">
+		<!--todo サイトのogタグ-->
+		<!--todo サイトの通知-->
+		<!-- ファビコン -->
+		<link rel="icon" href="images/top-logo.png">
+		<!-- スマホ用アイコン -->
+		<link rel="apple-touch-icon" sizes="160x160" href="images/top-logo.png">
+        <!--search console-->
+        <meta name="google-site-verification" content="F8G5_s-gxvR3bmyBsLf4rsnJyCjDufxTIgFxtEQlFZE" />
+		<!-- Windows用アイコン -->
+		<meta name="application-name" content="🍒ぐーたるmobile🍒"/>
+		<meta name="msapplication-square70x70logo" content="images/top-logo.png"/>
+		<meta name="msapplication-square150x150logo" content="images/top-logo.png"/>
+		<meta name="msapplication-wide310x150logo" content="images/top-logo.png"/>
+		<meta name="msapplication-square310x310logo" content="images/top-logo.png"/>
+		<meta name="msapplication-TileColor" content="#FAA500"/>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    </head>
+    <body>
+        <style>
+html{font-size:62.5%}
+@font-face {font-family:'MyFont';src: url(font/font-01.ttf)}	
+body {font-family:MyFont;margin:0;width:100%;}
+header{height:5rem;display:inline-flex;width:100%;box-shadow: 0 10px 25px 0 rgba(0, 0, 0,.05);}
+.barger-icon{height:5rem;position:absolute;display:inline-block;float:left;text-align:center}
+.barger-icon img{margin:35%;width:30%;}
+header a{text-align: center;display:inline-block;width:100%;}
+header a img{height:100%}
+p{font-size:1.2rem}
+.hide{display: none;}
+.modal-parent{position:fixed;bottom:4rem;text-align: center;z-index:600;width:100%;}
+.modal-black{background-color: rgba(95, 91, 91, 0.74);z-index:500;position:fixed;top:0;left:0;height: 100vh;width:100vw;}
+.modal{background:white;width:80%;margin:0;border-radius:10px;padding:0 5%;max-width:500px;display:inline-block;}
+.modal-bottom{font-size:1.5rem;font-weight:bold;margin:1.2rem 0;text-align:center;color:#00c1e9;}
+.moti-modal-icon{width:100%;border-radius: 8px;}
+.outline-box{border:1px solid #c5c5c5;padding:5%;}
+.outline-box img{width:100%}
+h1{font-size:3rem;margin:0}
+h2{text-align:center;font-size:2.8rem}
+h3{text-align:center;font-size:2.4rem}
+.under-content{padding:4%;background:#f5f5fa}
+.top-content{margin:4%}
+#comment-policy{display:none;}
+.page_top{position:fixed;bottom:10px;right:10px;text-decoration:none}
+.page_top:hover .up-icon{filter: brightness(80%);}
+.up-icon{width:7rem;}
+main{max-width:750px;margin: 0 auto;}
+        </style>
+        <header>
+            <a href="https://gootal-mobile.web.app/">
+                <img src="images/gootal-mobile-top.png">
+            </a>
+            <div class="barger-icon" onclick="modalopen(0)">
+                <img src="images/barger-icon.png">
+            </div>
+        </header>
+        <main>
+            <article>
+                <div class="top-content">
+                    <h1 onclick="modalopen(6)">Gootalmobile</h1>
+                    <p onclick="modalopen(10)">Gootalmobile📱UN-LIMIT!!!💥 ﾄﾞｩﾘｰﾐﾝ🌃ｵﾌﾞﾜｳｫｰ🎶 世界初🌏完全仮想化☁️💻 新世代ネットワーク🗼が プラン料金一年無料💰を実現🤩 ｱｲｷｬﾝﾋｱ👂ﾋｭｰﾁｬｰｺｰﾘﾝﾐｰ☎️ 海外66ヶ国🛫での利用も無料💰😆 ｵﾝﾘｰ🤠ｱﾋﾞﾘｰﾊﾞｰ🌠ｹﾞｯﾄｩｰｼ😎 常識を覆せ🌋Gootalmobile</p>
+                    <p>なんとPC非対応！</p>
+                    <h2>毎月使った分くらいの<br>お支払い！</h2>
+                    <div class="outline-box">
+                        <img src="images/gootal-sp-fee-01.png">
+                        <h3 onclick="modalopen(11)">利用者5000兆人突破！</h3>
+                        <img onclick="modalopen(8)" src="images/gootal-sp-fee-03.png">
+                        <p onclick="modalopen(9)">
+                            ※1 ぐーたる国民の場合の価格になります、地球人向けプランではありません。<br>
+                            ※2 ぐーたる光を契約している場合-500円/月になります、表示されている金額は割引適応済みの料金になります<br>
+                            ※3 3はありません。<br>
+                            ※4 980歳以下のお客様契約の場合-980円/月になります、表示されている金額は割引適応済みの料金になります<br>
+                            ※5 家族割適用の場合-1500円/月になります、表示されている金額は割引適応済みの料金になります<br>
+                            ※6 ぐーたるPrime加入者の場合-300円/月になります、表示されている金額は割引適応済みの料金になります<br>
+                            ※7 フィルタリングサービス(300円/月)に加入する必要があります、夜中にラーメンを表示しなくなります。金額は未加入のものを表示しています<br>
+                            ※8 全てのエリアで5Gを楽しむことができますがエリア内、エリア外にいる場合通信はできません。
+                        </p>
+                        <a>料金シュミレーションはこちらから</a>
+                    </div>
+                </div>
+                <div class="under-content">
+                    <h2 onclick="modalopen(2)">(📞^o^)ﾄｩﾙﾙﾙﾙﾙ…<br><b style="font-size:1.8rem;color:#ffafdb">うーん、これは通話‼️</b></h2>
+                    <div style="background:white;padding:4%;margin:0 0 4% 0;">
+                        <h3 style="font-size:2REM;margin:0">ぐーたる国内通話無料！</h3>
+                        <img onclick="modalopen(5)" src="images/gootal-moti-link-01.png" width="100%">
+                        <p style="color:#ff008c;font-size:1.4rem;text-align:center;font-weight:bold;">ぐーたる国内にいない場合通話は利用することができないと思います<br>試したこと無いのでわかりません！</p>
+                    </div>
+                    <p onclick="modalopen(3)">ぽぽぽ</p>
+                    <h2 onclick="modalopen(2)">(📞^o^)ﾄｩﾙﾙﾙﾙﾙ…<br><b style="font-size:1.8rem;color:#ffafdb">うーん、これは通話‼️</b></h2>
+                    <div style="background:white;padding:4%;margin:0 0 4% 0;">
+                        <h3 style="font-size:2REM;margin:0">ぐーたる国内通話無料！</h3>
+                        <img onclick="modalopen(5)" src="images/gootal-moti-link-01.png" width="100%">
+                        <p style="color:#ff008c;font-size:1.4rem;text-align:center;font-weight:bold;">ぐーたる国内にいない場合通話は利用することができないと思います<br>試したこと無いのでわかりません！</p>
+                    </div>
+                    <p onclick="modalopen(3)">ぽぽぽ</p>
+                    <h2>大事なことなので2回書きました！</h2>
+                    <p>大事だから2回書く、偉い！天才！ヘビーサブスクユーザー！</p>
+                    <h3>お客様の声(たぶん)</h3>
+                    <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ぐーたるモバイル神じゃんこれ <a href="https://t.co/GtkIkVVI7i">pic.twitter.com/GtkIkVVI7i</a></p>&mdash; 福島 (@xFlest) <a href="https://twitter.com/xFlest/status/1373951362929545217?ref_src=twsrc%5Etfw">March 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <p>掲載の許可とかは、とってません！</p>
+                    <h2 onclick="modalopen(13)">よくあるんじゃないかな<br>この質問</h2>
+                    <div  style="background:white;padding:5%;">
+                        <img src="images/gootal-faq-01.png" width="100%" onclick="modalopen(15)">
+                        <p>※1 アップロードやダンロードはぐーたるFTPもしくはぐーたるCloudアプリからご利用できます。<br>※2 月額は1GB以上使用しなかった場合の価格です、1GB以上利用した場合は別途30億円を請求させていただきます。<br>※3 ぐーたる国内限定になります。800円/月は2000年までのキャンペーン価格です<br>※4 誤字ってるやん鬱<br>米5 これは米<br>※6 餅と間違えて相方を突いてしまったクールポコ「何何何何何何何何何何何何！！！！！！！！？？やっちまったやっちまったやっちまったやっちまった！！！！！！！！マズイマズイマズイマズイマズイマズイマズイマズイマズイ誰か誰か誰か誰か誰か</p>
+                    </div>
+                    <div>
+                        <h2>おすすめプラン診断🍒</h2>
+                        <img src="images/オペレーター-01.png" width="100%" onclick="modalopen(12)">
+                        <p>ここからはオペレーターのもちが対応します！</p>
+                        <div>
+                            <div class="hidden_box">
+                                <label for="label1" style="margin-bottom:1.2rem;text-align:center;padding:1.8rem 0;font-size:1.7rem;border-radius:4px;border: 2px solid #16A0E8;width:100%;box-sizing:border-box;">始める</label>
+                                <input type="checkbox" id="label1"/>
+                                <div class="hidden_show1 hidden-div" style="background:white;padding:4%;margin:0 0 4% 0;">  
+                                    <img src="images/オペレーター-02.png" width="100%" onclick="modalopen(12)">
+                                    <p>ぐーたる国内でしかぐーたるモバイルはご利用いただけません。</p>
+                                    <label for="label1-1" onclick="checkoff('label1-2')" style="margin-bottom:1.2rem;text-align:center;padding:1.8rem 0;font-size:1.7rem;border-radius:4px;border: 2px solid #16A0E8;width:100%;box-sizing:border-box;">はい</label>
+                                    <label for="label1-2" onclick="checkoff('label1-1')" style="margin-bottom:1.2rem;text-align:center;padding:1.8rem 0;font-size:1.7rem;border-radius:4px;border: 2px solid #16A0E8;width:100%;box-sizing:border-box;">いいえ</label>
+                                    <input type="checkbox" id="label1-1"/>
+                                    <input type="checkbox" id="label1-2"/>
+                                    <div class="hidden_show1-1 hidden-div">
+                                        <label for="label1-1">
+                                            <h3>おすすめのプランは、、</h3>
+                                            <p>Gootalmobile📱UN-LIMIT!です！！</p>
+                                            <p>ここまだ作ってる途中だからスクショしないでね</p>
+                                            <//画像入れろここに>
+                                            <a>対応端末一覧はこちら</a>
+                                        </label>
+                                        <input type="checkbox" id="label1-1"/>
+                                    </div>
+                                    <div class="hidden_show1-2 hidden-div">
+                                        <img src="images/オペレーター-03.png" width="100%" onclick="modalopen(12)">
+                                        <label for="label1-2-1" onclick="checkoff('label1-2-2'),checkoff('label1-2-3')" style="margin-bottom:1.2rem;text-align:center;padding:1.8rem 0;font-size:1.7rem;border-radius:4px;border: 2px solid #16A0E8;width:100%;box-sizing:border-box;">docomo</label>
+                                        <label for="label1-2-2" onclick="checkoff('label1-2-1'),checkoff('label1-2-3')" style="margin-bottom:1.2rem;text-align:center;padding:1.8rem 0;font-size:1.7rem;border-radius:4px;border: 2px solid #16A0E8;width:100%;box-sizing:border-box;">au</label>
+                                        <label for="label1-2-3" onclick="checkoff('label1-2-1'),checkoff('label1-2-2')" style="margin-bottom:1.2rem;text-align:center;padding:1.8rem 0;font-size:1.7rem;border-radius:4px;border: 2px solid #16A0E8;width:100%;box-sizing:border-box;">softbank</label>
+                                        <input type="checkbox" id="label1-2-1"/>
+                                        <input type="checkbox" id="label1-2-2"/>
+                                        <input type="checkbox" id="label1-2-3"/>
+                                        <div class="hidden_show1-2-1 hidden-div">
+                                            <h3>ahamoがオヌヌメです！</h3>
+                                            <p>画像を押すと公式ページへ移動します</p>
+                                            <a href="https://ahamo.com/" target="blank">
+                                                <img src="images/ahamo-cv.jpg" width="100%">
+                                            </a>
+                                        </div>
+                                        <div class="hidden_show1-2-2 hidden-div">
+                                            <h3>povoがおすすめです！</h3>
+                                            <p>画像を押すと公式ページへ移動します</p>
+                                            <a href="https://povo.au.com/" target="blank">
+                                                <img src="images/povo-cv.jpg" width="100%">
+                                            </a>
+                                        </div>
+                                        <div class="hidden_show1-2-3 hidden-div">
+                                            <h3>おすすめはLINEMOです！</h3>
+                                            <p>画像を押すと公式ページへ移動します</p>
+                                            <a href="https://www.linemo.jp/" target="blank">
+                                                <img src="images/linemo-cv.jpg" width="100%">
+                                            </a>
+                                        </div>
+                                    </div> 
+                                </div>
+                                
+                            </div>
+                            <script>
+                            function checkoff(str)
+                            {
+                                $("#"+str).prop("checked", false);
+                            }
+                            </script>
+ <style>
+.questions{font-size:1.7rem}
+.hidden_box{margin: 2em 0;padding: 0}
+/*ボタン装飾*/.hidden_box label{display:inline-block;width:100%;background: white;}
+/*チェックは見えなくする*/.hidden_box input{display: none}
+/*中身を非表示にしておく*/.hidden-div{height: 0;padding: 0;overflow: hidden;opacity: 0;transition: 0.8s}
+/*クリックで中身表示*/
+.hidden_box input:checked ~ .hidden_show1,
+#label1-1:checked ~ .hidden_show1-1,
+#label1-2:checked ~ .hidden_show1-2,
+#label1-2-1:checked ~ .hidden_show1-2-1,
+#label1-2-2:checked ~ .hidden_show1-2-2,
+#label1-2-3:checked ~ .hidden_show1-2-3{height:auto;opacity:1}
+</style>
+                        </div>
+                    </div>
+                    <div onclick="modalopen(1)">
+                        <h2>🍒ぐーたる🍒<br><b style="font-size:1.8rem;color:#ffafdb">-サービス創設者-</b></h2>
+                        <div style="background:white;padding:4%;margin:0 0 4% 0;">
+                            <h3 style="font-size:2REM;margin:0">@HUAWEI6WEIWEI</h3>
+                            <img src="images/top-logo.png" width="60%" style="margin:0 20%;border-radius:50%;box-shadow: 0 10px 25px 0 rgba(0, 0, 0,.1);">
+                            <p style="color:#ff008c;font-size:1.4rem;text-align:center;font-weight:bold;">慶應義塾大学/経済学部3年/TOEIC/TOEFL/国際交流/起業/インターン/留学/勝ち抜く就活/自己表現/学生団体代表/ソーシャルメディア/グローバルな思考/スティーブジョブズ/カンボジア/インドネシア/嫌われる勇気/ITベンチャー/スタートアップ/副業/常識に囚われない/クラウドファンディング/仮想通貨/</p>
+                        </div>
+                    </div>
+                    <h3 style="text-align: left;font-size:1.2rem;">develop by もち</h3>
+                    <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ぐーたるmobileサイト出来ました！<a href="https://t.co/pWcqKug1Aa">https://t.co/pWcqKug1Aa</a><br>レスポンシブじゃないのでPCで見ると<br>表示が崩れます！！<a href="https://twitter.com/HUAWEI6WEIWEI?ref_src=twsrc%5Etfw">@HUAWEI6WEIWEI</a> <a href="https://t.co/ZKWcxnzX73">pic.twitter.com/ZKWcxnzX73</a></p>&mdash; もち🍣🍊motimoti_865凍結しました (@motimoti_dev) <a href="https://twitter.com/motimoti_dev/status/1373782364891934722?ref_src=twsrc%5Etfw">March 21, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    <div id="disqus_thread"></div>
+                    <script>
+                        /**
+                        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                        /*
+                        var disqus_config = function () {
+                        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                        };
+                        */
+                        (function() { // DON'T EDIT BELOW THIS LINE
+                        var d = document, s = d.createElement('script');
+                        s.src = 'https://gootal-mobile.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                    <p onclick="modalopen(7)">表示されている全ての情報はフィクションです！やったね！</p>
+                </div>
+            </article>
+        </main>
+        <a href="#top" class="page_top"><img src="images/mini-up-icon.png" class="up-icon"></a>
+        <footer>
+            <p style="text-align:center">Copy right©<span onclick="modalopen(4)">ぐたーる</span>&<span onclick="modalopen(0)">もち</span></p>
+        </footer>
+        <div class="modal-black modal-block hide modals" onclick="modalclose()"></div>
+        <aside class="modal-parent hide modals">
+            <div class="modal modal-block"onclick="javascript:void(0);">
+                <h2 style="margin:1rem 0;font-size:2rem;text-align:left;" id="modal-title"></h2>
+                <p id="modal-text"></p>
+                <a target="blank" id="modal-link">
+                    <img src="" class="moti-modal-icon" id="modal-image">
+                </a>
+                <div class="modal-bottom" onclick="modalclose()">戻る</div>
+            </div>
+        </aside>
+        <script>
+            let data = Array(
+                ["もち","表示するもの無いんでとりあえずもちでもどうぞ","images/moti-icon.jpg","https://blog.sumahotektek.com/moti-introduce/","おっと、これはもちアイコン！？"],
+                ["ぐーたる","画像を押すとツイッターへ転送されます！","images/top-logo.png","https://twitter.com/HUAWEI6WEIWEI","Gootal画像"],
+                ["(📞^o^)ﾄｩﾙﾙﾙﾙﾙ…","おっおっおっ","","",""],
+                ["ぽ","Po","","",""],
+                ["一番えらい人です！","ぐーたる","images/top-logo.png","https://twitter.com/HUAWEI6WEIWEI","Gootal画像"],
+                ["国内線はいつでも無料！","契約時にぐーたる王国在住かの検査を行います","images/gootal-moti-link-01.png","","国内線無料[ぐーたるモバイル]"],
+                ["ぐーたる","ツイート1","images/gootal-text-chat-01.png","",""],
+                ["ぐーたる","ツイート2","images/gootal-text-chat-02.png","",""],
+                ["ぐーたるおすすめ","素材です","images/ぐーたるおすすめ.png","",""],
+                ["ぐーたる","ツイート3","images/gootal-text-chat-03.png","",""],
+                ["ぐーたる","ツイート4","images/gootal-text-chat-04.png","",""],
+                ["大当たり！","ツイート5","images/gootal-text-chat-05.png","",""],
+                ["もち(オペレーターver)","ご自由にご利用ください、LINEスタンプも出ます！","images/オペレーターもち.png","",""],
+                ["隠しプラン","通話かけ放題パスタ！","images/pasta-l.jpg","",""],
+                ["","","images/","",""],
+                ["大容量ぐーたるCloud！","とても安全でず","images/gootalcloudをご利用ください!.png","",""],
+                ["","","images/","",""],
+                ["","","images/","",""],
+                ["","","images/","",""],
+                ["","","images/","",""],
+            );
+            function modalclose(){$(".modals").addClass("hide");}
+            function modalopen(row){
+                document.getElementById("modal-title").innerHTML = data[row][0];
+                document.getElementById("modal-text").innerHTML = data[row][1];
+                if(data[row][2] != ""){
+                    $("#modal-image").attr('src', data[row][2]);
+                    $("#modal-image").attr('alt', data[row][4]);
+                    $("#modal-link").attr('href', data[row][3]);
+                    $("#modal-link").attr('style', '');                    
+                }else{/*非表示*/
+                    $("#modal-link").attr('style', 'display:none;');
+                }
+                $(".modals").removeClass("hide");
+            }
+            $(function() {var pageTop = $('.page_top');pageTop.hide();$(window).scroll(function () {if ($(this).scrollTop() > 600) {pageTop.fadeIn();} else {pageTop.fadeOut();}});pageTop.click(function () {$('body, html').animate({scrollTop:0}, 500, 'swing');return false;});});
+        </script>
+        <footer></footer>
+    </body>
+</html>

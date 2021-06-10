@@ -1,0 +1,106 @@
+<!--
+    Hi, this is gootal mobile html
+    
+    This code is the author's copyrighted work.
+    All copying and unauthorized use are prohibited
+    If you have any questions please send us a direct message on Twitter
+    This page is a parody and fiction of MVNO.
+    Twitter @motimoti_dev
+-->
+<html>
+    <head>
+        <meta name="viewport" content="width=width=480,initial-scale=1">
+        <title>ぐーたるmobile[コメントポリシー]</title>
+		<meta name="robots" content="noindex, nofollow"/>
+		<meta name="description" content="コメントポリシー">
+		<!--todo サイトのogタグ-->
+		<!--todo サイトの通知-->
+		<!-- ファビコン -->
+		<link rel="icon" href="images/top-logo.png">
+		<!-- スマホ用アイコン -->
+		<link rel="apple-touch-icon" sizes="160x160" href="images/top-logo.png">
+        <!--search console-->
+        <meta name="google-site-verification" content="F8G5_s-gxvR3bmyBsLf4rsnJyCjDufxTIgFxtEQlFZE" />
+		<!-- Windows用アイコン -->
+		<meta name="application-name" content="🍒ぐーたるmobile🍒"/>
+		<meta name="msapplication-square70x70logo" content="images/top-logo.png"/>
+		<meta name="msapplication-square150x150logo" content="images/top-logo.png"/>
+		<meta name="msapplication-wide310x150logo" content="images/top-logo.png"/>
+		<meta name="msapplication-square310x310logo" content="images/top-logo.png"/>
+		<meta name="msapplication-TileColor" content="#FAA500"/>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <style>
+html{font-size:62.5%}
+@font-face {font-family:'MyFont';src: url(font/font-01.ttf)}	
+body {font-family:MyFont;margin:0;}
+header{height:5rem;display:inline-flex;width:100%;box-shadow: 0 10px 25px 0 rgba(0, 0, 0,.05);}
+.barger-icon{height:5rem;position:absolute;display:inline-block;float:left;text-align:center}
+.barger-icon img{margin:35%;width:30%;}
+header a{text-align: center;display:inline-block;width:100%;}
+header a img{height:100%}
+p{font-size:1.2rem}
+.hide{display: none;}
+.modal-black{background-color: rgba(95, 91, 91, 0.74);position:fixed;z-index:500;top:0;left:0;height: 100vh;width:100vw;}
+.modal{background:white;z-index:600;position:fixed;bottom:2rem;width:80%;margin:5%;border-radius:10px;padding:0 5%;}
+.modal-bottom{font-size:1.5rem;font-weight:bold;margin:1.2rem 0;text-align:center;color:#00c1e9;}
+.moti-modal-icon{width:100%;border-radius: 8px;}
+main{}
+.outline-box{border:1px solid #c5c5c5;padding:5%;}
+.outline-box img{width:100%}
+h1{font-size:3rem;margin:0}
+h2{text-align:center;font-size:2.8rem}
+h3{text-align:center;font-size:2.4rem}
+.under-content{padding:4%;background:#f5f5fa}
+.top-content{margin:4%}
+#comment-policy{display:none;}
+.page_top {
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	padding:10px 20px;
+	color:#fff;
+	font-size:20px;
+	text-decoration:none;
+	background:#000;
+}
+.page_top:hover {background:#e74c3c}
+        </style>
+        <header>
+            <a href="https://gootal-mobile.web.app/">
+                <img src="images/gootal-mobile-top.png">
+            </a>
+            <div class="barger-icon" onclick="modalopen()">
+                <img src="images/barger-icon.png">
+            </div>
+        </header>
+        <main>
+            <article>
+                <div class="top-content">
+                    <h1>コメントポリシー</h1>
+                    <p>Twitterと同じです、変なのは消します</p>
+                </div>                   
+            </article>
+        </main>
+        <a href="#top" class="page_top">PAGE TOP ▲</a>
+        <footer>
+            <p style="text-align:center">Copy right©ぐたーる&もち</p>
+        </footer>
+        <div class="modal-black modal-block hide" onclick="modalclose()"></div>
+        <aside class="modal modal-block hide">
+            <h2>もち</h2>
+            <p>表示するもの無いんでとりあえずもちでもどうぞ</p>
+            <a target="blank" href="https://blog.sumahotektek.com/moti-introduce/">
+                <img src="images/moti-icon.jpg" alt="おっと、これはもちアイコン！？" class="moti-modal-icon">
+            </a>
+            <div class="modal-bottom" onclick="modalclose()">戻る</div>
+        </aside>
+        <script>
+            function modalclose(){$(".modal-block").addClass("hide");}
+            function modalopen(){$(".modal-block").removeClass("hide");}
+            $(function() {var pageTop = $('.page_top');pageTop.hide();$(window).scroll(function () {if ($(this).scrollTop() > 600) {pageTop.fadeIn();} else {pageTop.fadeOut();}});pageTop.click(function () {$('body, html').animate({scrollTop:0}, 500, 'swing');return false;});});
+        </script>
+        <footer></footer>
+    </body>
+</html>
